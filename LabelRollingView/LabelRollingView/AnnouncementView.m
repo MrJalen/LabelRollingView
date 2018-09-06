@@ -27,9 +27,13 @@
 - (void)setTextArray:(NSMutableArray *)textArray {
 	_textArray = textArray;
 	
-	UIImageView *imgBg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
-	imgBg.image = [UIImage imageNamed:@"announcement_prompted"];
-	[self addSubview:imgBg];
+	self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5f];
+	self.layer.masksToBounds = YES;
+	self.layer.cornerRadius = 15;
+	
+//	UIImageView *imgBg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+//	imgBg.image = [UIImage imageNamed:@"announcement_prompted"];
+//	[self addSubview:imgBg];
 	
 	UIImageView *annImg = [[UIImageView alloc] initWithFrame:CGRectMake(10, 6, 18, 18)];
 	annImg.image = [UIImage imageNamed:@"announcement"];

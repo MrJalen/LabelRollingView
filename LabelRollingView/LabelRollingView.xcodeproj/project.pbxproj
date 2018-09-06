@@ -18,6 +18,7 @@
 		586BA33B21410438008F3A8B /* LabelRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA33A21410438008F3A8B /* LabelRollingView.m */; };
 		586BA33E2141055E008F3A8B /* AnnouncementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA33D2141055E008F3A8B /* AnnouncementView.m */; };
 		586BA34021410647008F3A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BA33F21410647008F3A8B /* Images.xcassets */; };
+		586BA34321411A89008F3A8B /* LabelAcrossRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA34221411A89008F3A8B /* LabelAcrossRollingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		586BA33C2141055D008F3A8B /* AnnouncementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementView.h; sourceTree = "<group>"; };
 		586BA33D2141055E008F3A8B /* AnnouncementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementView.m; sourceTree = "<group>"; };
 		586BA33F21410647008F3A8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		586BA34121411A89008F3A8B /* LabelAcrossRollingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelAcrossRollingView.h; sourceTree = "<group>"; };
+		586BA34221411A89008F3A8B /* LabelAcrossRollingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAcrossRollingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				586BA33A21410438008F3A8B /* LabelRollingView.m */,
 				586BA33C2141055D008F3A8B /* AnnouncementView.h */,
 				586BA33D2141055E008F3A8B /* AnnouncementView.m */,
+				586BA34121411A89008F3A8B /* LabelAcrossRollingView.h */,
+				586BA34221411A89008F3A8B /* LabelAcrossRollingView.m */,
 				586BA307214103B5008F3A8B /* AppDelegate.h */,
 				586BA308214103B5008F3A8B /* AppDelegate.m */,
 				586BA30A214103B5008F3A8B /* ViewController.h */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586BA34321411A89008F3A8B /* LabelAcrossRollingView.m in Sources */,
 				586BA30C214103B5008F3A8B /* ViewController.m in Sources */,
 				586BA317214103B8008F3A8B /* main.m in Sources */,
 				586BA309214103B5008F3A8B /* AppDelegate.m in Sources */,

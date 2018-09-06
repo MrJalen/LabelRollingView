@@ -70,7 +70,7 @@ static NSString *const labelRollingViewNormalCell = @"labelRollingViewNormalCell
 }
 
 - (void)initialization {
-	_rollingTimeInterval = 2.0;
+	_rollingTimeInterval = 3.0;
 	[self addTimer];
 }
 
