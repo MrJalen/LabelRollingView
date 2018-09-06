@@ -2,7 +2,7 @@
 //  LabelRollingViewUITests.m
 //  LabelRollingViewUITests
 //
-//  Created by onion on 2018/9/6.
+//  Created by MrJalen on 2018/9/6.
 //  Copyright © 2018年 onion. All rights reserved.
 //
 

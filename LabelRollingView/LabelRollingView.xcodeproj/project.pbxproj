@@ -15,6 +15,9 @@
 		586BA317214103B8008F3A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA316214103B8008F3A8B /* main.m */; };
 		586BA321214103B8008F3A8B /* LabelRollingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA320214103B8008F3A8B /* LabelRollingViewTests.m */; };
 		586BA32C214103B8008F3A8B /* LabelRollingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA32B214103B8008F3A8B /* LabelRollingViewUITests.m */; };
+		586BA33B21410438008F3A8B /* LabelRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA33A21410438008F3A8B /* LabelRollingView.m */; };
+		586BA33E2141055E008F3A8B /* AnnouncementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA33D2141055E008F3A8B /* AnnouncementView.m */; };
+		586BA34021410647008F3A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BA33F21410647008F3A8B /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		586BA327214103B8008F3A8B /* LabelRollingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelRollingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586BA32B214103B8008F3A8B /* LabelRollingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelRollingViewUITests.m; sourceTree = "<group>"; };
 		586BA32D214103B8008F3A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586BA33921410438008F3A8B /* LabelRollingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelRollingView.h; sourceTree = "<group>"; };
+		586BA33A21410438008F3A8B /* LabelRollingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelRollingView.m; sourceTree = "<group>"; };
+		586BA33C2141055D008F3A8B /* AnnouncementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementView.h; sourceTree = "<group>"; };
+		586BA33D2141055E008F3A8B /* AnnouncementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementView.m; sourceTree = "<group>"; };
+		586BA33F21410647008F3A8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +109,17 @@
 		586BA306214103B5008F3A8B /* LabelRollingView */ = {
 			isa = PBXGroup;
 			children = (
+				586BA33921410438008F3A8B /* LabelRollingView.h */,
+				586BA33A21410438008F3A8B /* LabelRollingView.m */,
+				586BA33C2141055D008F3A8B /* AnnouncementView.h */,
+				586BA33D2141055E008F3A8B /* AnnouncementView.m */,
 				586BA307214103B5008F3A8B /* AppDelegate.h */,
 				586BA308214103B5008F3A8B /* AppDelegate.m */,
 				586BA30A214103B5008F3A8B /* ViewController.h */,
 				586BA30B214103B5008F3A8B /* ViewController.m */,
 				586BA30D214103B5008F3A8B /* Main.storyboard */,
 				586BA310214103B8008F3A8B /* Assets.xcassets */,
+				586BA33F21410647008F3A8B /* Images.xcassets */,
 				586BA312214103B8008F3A8B /* LaunchScreen.storyboard */,
 				586BA315214103B8008F3A8B /* Info.plist */,
 				586BA316214103B8008F3A8B /* main.m */,
@@ -236,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				586BA314214103B8008F3A8B /* LaunchScreen.storyboard in Resources */,
+				586BA34021410647008F3A8B /* Images.xcassets in Resources */,
 				586BA311214103B8008F3A8B /* Assets.xcassets in Resources */,
 				586BA30F214103B5008F3A8B /* Main.storyboard in Resources */,
 			);
@@ -265,6 +279,8 @@
 				586BA30C214103B5008F3A8B /* ViewController.m in Sources */,
 				586BA317214103B8008F3A8B /* main.m in Sources */,
 				586BA309214103B5008F3A8B /* AppDelegate.m in Sources */,
+				586BA33E2141055E008F3A8B /* AnnouncementView.m in Sources */,
+				586BA33B21410438008F3A8B /* LabelRollingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
