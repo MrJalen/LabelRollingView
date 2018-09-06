@@ -6,7 +6,7 @@
 1. 单行文本广告轮播 
 # LabelRollingView
 
-```
+```Objective-C
 AnnouncementView *announcementView = [[AnnouncementView alloc] initWithFrame:CGRectMake(15, (kIsiPhoneX?88:64), kScreenWidth-30, 30)];
 announcementView.textArray = [NSMutableArray arrayWithArray:@[@"1.紧急公告...", @"2.到货通知...", @"3.您有新订单生成..."]];
 announcementView.hidden = NO;
@@ -26,7 +26,7 @@ announcementView.hidden = NO;
 2. 单行文本横向滚动 
 # LabelAcrossRollingView
 
-```
+```Objective-C
 LabelAcrossRollingView *acrossRollingView = [[LabelAcrossRollingView alloc] initWithFrame:CGRectMake(15, announcementView.frame.origin.y+announcementView.frame.size.height+20, kScreenWidth-30, 30) title:@"生活不曾取悦于我，所以我创造了自己的生活！"];
 [self.view addSubview:acrossRollingView];
 ```
