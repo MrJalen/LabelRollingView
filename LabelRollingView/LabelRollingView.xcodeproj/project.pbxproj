@@ -19,6 +19,7 @@
 		586BA33E2141055E008F3A8B /* AnnouncementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA33D2141055E008F3A8B /* AnnouncementView.m */; };
 		586BA34021410647008F3A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586BA33F21410647008F3A8B /* Images.xcassets */; };
 		586BA34321411A89008F3A8B /* LabelAcrossRollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BA34221411A89008F3A8B /* LabelAcrossRollingView.m */; };
+		586BA34521412161008F3A8B /* labelRolling.gif in Resources */ = {isa = PBXBuildFile; fileRef = 586BA34421412161008F3A8B /* labelRolling.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		586BA33F21410647008F3A8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		586BA34121411A89008F3A8B /* LabelAcrossRollingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelAcrossRollingView.h; sourceTree = "<group>"; };
 		586BA34221411A89008F3A8B /* LabelAcrossRollingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAcrossRollingView.m; sourceTree = "<group>"; };
+		586BA34421412161008F3A8B /* labelRolling.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = labelRolling.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		586BA306214103B5008F3A8B /* LabelRollingView */ = {
 			isa = PBXGroup;
 			children = (
+				586BA34421412161008F3A8B /* labelRolling.gif */,
 				586BA33921410438008F3A8B /* LabelRollingView.h */,
 				586BA33A21410438008F3A8B /* LabelRollingView.m */,
 				586BA33C2141055D008F3A8B /* AnnouncementView.h */,
@@ -256,6 +259,7 @@
 				586BA314214103B8008F3A8B /* LaunchScreen.storyboard in Resources */,
 				586BA34021410647008F3A8B /* Images.xcassets in Resources */,
 				586BA311214103B8008F3A8B /* Assets.xcassets in Resources */,
+				586BA34521412161008F3A8B /* labelRolling.gif in Resources */,
 				586BA30F214103B5008F3A8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
