@@ -11,5 +11,6 @@
 @interface LabelAcrossRollingView : UIView
 
 - (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title;
+@property (nonatomic, copy) void(^selectTextString)(NSString *textString);
 
 @end

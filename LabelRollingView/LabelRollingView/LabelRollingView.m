@@ -40,8 +40,6 @@ static NSInteger const labelRollingViewTitleFont = 13;
 @property (nonatomic, strong) UICollectionView *collectionView;
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic, strong) NSMutableArray *titleArr;
-@property (nonatomic, strong) NSArray *bottomImageArr;
-@property (nonatomic, strong) NSArray *bottomTitleArr;
 
 @end
 

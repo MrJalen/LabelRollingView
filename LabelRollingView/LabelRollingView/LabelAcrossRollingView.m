@@ -21,6 +21,7 @@
 		self.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5f];
 		self.layer.masksToBounds = YES;
 		self.layer.cornerRadius = 15;
+		[self addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(selectTextStringClick)]];
 		
 //		UIImageView *imgBg = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
 //		imgBg.image = [UIImage imageNamed:@"announcement_prompted"];
@@ -35,6 +36,12 @@
 		[self showAnimations];
 	}
 	return self;
+}
+
+- (void)selectTextStringClick {
+	if (self.selectTextString) {
+		self.selectTextString(self.titleLabel.text);
+	}
 }
 
 - (void)showAnimations {
